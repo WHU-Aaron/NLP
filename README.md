@@ -1,8 +1,5 @@
 # NLP
-##### 实验环境
-python 3 + jieba + gensim + sklearn + matplotlib + numpy + seaborn
-
-##### 实验内容
+#### exp_1
 1. 使用 jieba 分词工具进行分词，使用方法： jieba.cut(text) ；
 2. 使用 gensim 中的 Word2Vec 模型训练词向量： model = Word2Vec(common_texts, size=100,
 window=5, min_count=1, workers=4) ；
