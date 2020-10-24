@@ -14,6 +14,7 @@ model.wv.most_similar(positive=['武汉'], topn=5) ；
 '广州', '浙江', '杭州'] （可换成其他）中的所有词的词向量进行降维并使用 seaborn 和
 matplotlib 将其可视化：
 #### exp_2
+TextCNN 模型,BiLSTM 模型
 经过调参，最好的参数组合
 TextCNN:    87.1%
 BiLSTM:     87.9%
